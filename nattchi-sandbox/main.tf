@@ -8,7 +8,7 @@ variable "instance_type" {
 }
 
 resource "aws_instance" "nattchi-sandbox" {
-  ami = "ami-0c55b159cbfafe1f0"
+  ami = "ami-0fb04413c9de69305"
   instance_type = var.instance_type
   tags = {
     Name = "nattchi-sandbox"
